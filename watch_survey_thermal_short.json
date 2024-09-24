@@ -1,0 +1,63 @@
+{
+  "survey_name": "Thermal (short)",
+  "survey_id": "thermal_short",
+  "survey": [{
+      "question": "Knowledge creation behaviour?",
+      "question_id": "q_thermal",
+      "response_options": [{
+          "text": "Yes",
+          "icon": "check_mark",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_location"
+        },
+        {
+          "text": "No",
+          "icon": "x",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_location"
+        }
+      ]
+    },
+    {
+      "question": "Behaviour type?",
+      "question_id": "q_location",
+      "response_options": [{
+          "text": "S",
+          "icon": "person_head_learning",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "E",
+          "icon": "person_2_dialog_4",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "C",
+          "icon": "meeting_online",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "I",
+          "icon": "person_arrows_inward",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        }
+      ]
+    }
+  ]
+}
