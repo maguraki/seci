@@ -1,0 +1,27 @@
+{
+  "survey_name": "Test survey",
+  "survey_id": "test",
+  "survey": [{
+      "question": "Are your behaviours knowledge emergent behaviours?",
+      "question_id": "q_test",
+      "response_options": [{
+          "text": "yes",
+          "icon": "check_mark",
+          "icon_background_color": "#FF0000",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "no",
+          "icon": "number_circle_2",
+          "icon_background_color": "#FF0000",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+
+        }
+      ]
+    }
+  ]
+}
